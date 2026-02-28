@@ -51,9 +51,7 @@ export default function LandingPage() {
                 <div className="w-full max-w-6xl bg-[#1e1e1e] border border-gray-800 rounded-full px-6 py-3 flex items-center justify-between shadow-xl">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2">
-                        <div className="w-8 h-8 bg-gray-100 text-[#1e1e1e] rounded flex items-center justify-center font-bold">
-                            U
-                        </div>
+                        <img src="/logo.png" alt="UNI Mentores" className="w-8 h-8 rounded object-contain" />
                         <span className="font-bold text-white text-lg tracking-wide">UNI Mentores</span>
                     </Link>
 
